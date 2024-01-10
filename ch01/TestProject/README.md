@@ -6,7 +6,7 @@ This folder contains the code for the **Test Project** example from Chapter 01.
 from the "Effortless GUI Development with PyQt6" book by N.Gerasymchuk.
 
 - [Original link to the repository with all examples](https://github.com/PacktPublishing/Effortless-GUI-Development-with-PyQt6)
-- [Get a book herTest(https://www.packtpub.com/)
+- [Get a book here](https://www.packtpub.com/)
 
 ## How to run the code
 
