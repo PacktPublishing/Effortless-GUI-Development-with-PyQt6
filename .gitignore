@@ -1,3 +1,6 @@
+# Qt Creator related
+*.pyproject.user
+
 # General
 .DS_Store
 .AppleDouble
