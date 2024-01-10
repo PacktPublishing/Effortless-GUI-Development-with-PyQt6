@@ -1,8 +1,8 @@
-# Test project
+# LoginScreen project
 
 ## Information
 
-This folder contains the code for the **Test Project** example from Chapter 01
+This folder contains the code for the **LoginScreen Project** example from Chapter 02 
 from the "Effortless GUI Development with PyQt6" book.
 
 - [Original link to the repository with all examples](https://github.com/PacktPublishing/Effortless-GUI-Development-with-PyQt6)
@@ -24,4 +24,4 @@ In fewer words you need to do:
 
 Use terminal to run the application: `$ python3.12 main.py`
 
-You may also open the `Test.pyproject` in QtCreator and run it there.
+You may also open the `LoginScreen.pyproject` in QtCreator and run it there.

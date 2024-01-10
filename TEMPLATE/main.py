@@ -2,8 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-   ChXX. 'EXAMPLE' example from the "Effortless GUI Development with PyQt6" book 
-   by N.Gerasymchuk published by Packt.
+   ChXX. 'EXAMPLE' example from the "Effortless GUI Development with PyQt6" book.
    
    Access the repository with all examples at:
    https://github.com/PacktPublishing/Effortless-GUI-Development-with-PyQt6
