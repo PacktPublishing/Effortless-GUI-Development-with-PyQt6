@@ -11,6 +11,8 @@
 import sys
 from PyQt6.QtWidgets import QApplication, QMainWindow, QLabel, QSlider, QProgressBar, QSpinBox, QPushButton, QVBoxLayout, QWidget
 from PyQt6.QtCore import Qt
+# from PyQt6.QtWidgets import QGridLayout
+
 
 class BookFeedbackPageLayouts(QMainWindow):
     def __init__(self):
@@ -23,7 +25,7 @@ class BookFeedbackPageLayouts(QMainWindow):
         self.questionnaire_progress = QProgressBar(self)
         self.questionnaire_progress.setMinimum(1)
         self.questionnaire_progress.setMaximum(100)
-        self.questionnaire_progress.setValue(20) 
+        self.questionnaire_progress.setValue(20)
 
         self.question_label = QLabel("How do you like this book? Rating (0 to 10):", self)
         self.question_label.setWordWrap(True)
@@ -43,9 +45,12 @@ class BookFeedbackPageLayouts(QMainWindow):
         self.submit_button = QPushButton("Submit Feedback", self)
 
 
-        # New code goes here:
+        # === New code goes here ===
+
         central_widget = QWidget(self)  # Central widget to hold the layout
         self.setCentralWidget(central_widget)
+        
+        # Apply QVBoxLayout
         layout = QVBoxLayout(central_widget)  # Main layout for the central widget
 
         # Add all widgets into the layout one by one
@@ -56,6 +61,17 @@ class BookFeedbackPageLayouts(QMainWindow):
         layout.addWidget(self.chapters_label)
         layout.addWidget(self.chapters_spinbox)
         layout.addWidget(self.submit_button)
+
+        # Apply QGridLayout 
+        # layout = QGridLayout(central_widget)  # Main layout for the central widget
+
+        # layout.addWidget(self.progress_label, 0, 0)
+        # layout.addWidget(self.questionnaire_progress, 0, 1)
+        # layout.addWidget(self.question_label, 1, 0)
+        # layout.addWidget(self.book_rating_slider, 1, 1)
+        # layout.addWidget(self.chapters_label, 2, 0)
+        # layout.addWidget(self.chapters_spinbox, 2, 1)
+        # layout.addWidget(self.submit_button, 3, 0, 1, 2)
 
         self.setWindowTitle("PyQt6 Cookbook Feedback Questionnaire with Layouts")
 
