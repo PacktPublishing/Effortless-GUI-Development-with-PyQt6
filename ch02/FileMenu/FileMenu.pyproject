@@ -1,0 +1,11 @@
+{
+    "files": [
+        "main.py",
+        "images/add.png",
+        "images/clock.png",
+        "images/lock.png",
+        "images/quit.png",
+        "images/save.png",
+        "images/file.png"
+    ]
+}
