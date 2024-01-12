@@ -21,23 +21,5 @@ This repository contains the code of example projects from the **"Effortless GUI
 - [Login Screen](ch02/LoginScreen)
 - [Shopping List](ch02/ShoppingList)
 - [Book Feedback](ch02/BookFeedback)
-
-
-### Chapter 03
-
-### Chapter 04
-
-### Chapter 05
-
-### Chapter 06
-
-### Chapter 07
-
-### Chapter 08
-
-### Chapter 09
-
-### Chapter 10
-
-### Chapter 11
-
+- [File Menu](ch02/FileMenu)
+- [Book Feedback with Layouts](ch02/BookFeedback-layouts)
