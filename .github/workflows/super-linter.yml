@@ -40,3 +40,5 @@ jobs:
           VALIDATE_MARKDOWN: true
           VALIDATE_PYTHON: true
           VALIDATE_NATURAL_LANGUAGE: true
+          # To report GitHub Actions status checks
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
