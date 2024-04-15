@@ -9,7 +9,7 @@ This repository contains the code of example projects from the **"Effortless GUI
 - [Get a book here](https://www.packtpub.com/)
 
 
-## Chapters
+## Projects from Chapters
 
 ### Chapter 01
 
@@ -23,3 +23,11 @@ This repository contains the code of example projects from the **"Effortless GUI
 - [Book Feedback](ch02/BookFeedback)
 - [File Menu](ch02/FileMenu)
 - [Book Feedback with Layouts](ch02/BookFeedback-layouts)
+
+
+### Chapter 03
+
+- [Updated Login Screen](ch03/UpdatedLoginScreen)
+- [Updated Shopping List](ch03/UpdatedShoppingList)
+- [Shopping List + Budget](ch03/ShoppingListBudget)
+- [Numeric Input](ch03/NumericInput)
