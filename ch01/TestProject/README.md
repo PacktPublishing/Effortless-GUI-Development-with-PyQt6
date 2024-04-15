@@ -12,7 +12,7 @@ from the "Effortless GUI Development with PyQt6" book.
 
 ### Prepare environment
 
-You can read detailed instructions on how to do it in a section 
+You can read detailed instructions on how to do it in a section
 "Prepare a working PyQt6 environment" from the Chapter 01.
 In fewer words you need to do:
 

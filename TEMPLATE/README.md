@@ -10,7 +10,7 @@ REMOVE ME
 
 ## Information
 
-This folder contains the code for the **[[Template]] Project** example from Chapter [[XX]] 
+This folder contains the code for the **[[Template]] Project** example from Chapter [[XX]]
 from the **"Effortless GUI Development with PyQt6"** book.
 
 - [Original link to the repository with all examples](https://github.com/PacktPublishing/Effortless-GUI-Development-with-PyQt6)
@@ -20,7 +20,7 @@ from the **"Effortless GUI Development with PyQt6"** book.
 
 ### Prepare environment
 
-You can read detailed instructions on how to do it in a section 
+You can read detailed instructions on how to do it in a section
 "Prepare a working PyQt6 environment" from the Chapter 01.
 In fewer words you need to do:
 

@@ -2,7 +2,7 @@
 
 ## Information
 
-This folder contains the code for the **FileMenu Project** example from Chapter 02 
+This folder contains the code for the **FileMenu Project** example from Chapter 02
 from the "Effortless GUI Development with PyQt6" book.
 
 - [Original link to the repository with all examples](https://github.com/PacktPublishing/Effortless-GUI-Development-with-PyQt6)
@@ -11,7 +11,7 @@ from the "Effortless GUI Development with PyQt6" book.
 
 ## License & attribution
 
-We use Mono icons (https://icons.mono.company) in this example project. 
+We use [Mono icons](https://icons.mono.company) in this example project.
 Mono icons are MIT licensed.
 
 
@@ -19,7 +19,7 @@ Mono icons are MIT licensed.
 
 ### Prepare environment
 
-You can read detailed instructions on how to do it in a section 
+You can read detailed instructions on how to do it in a section
 "Prepare a working PyQt6 environment" from the Chapter 01.
 In fewer words you need to do:
 
