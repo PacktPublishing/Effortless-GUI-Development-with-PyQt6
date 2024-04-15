@@ -16,6 +16,7 @@ from PyQt6.QtCore import Qt, pyqtSignal
 total_budget = 10  # Starting budget
 current_spent = 0  # Amount already spent
 
+
 class RemainingBudgetLabel(QLabel):
     default_style = "QLabel { font: bold }"
     highlighted_style = "QLabel { background-color: red; font: bold }"
@@ -57,6 +58,7 @@ class CustomCheckBox(QCheckBox):
             self.setStyleSheet("")
 
         self.item_checked.emit(self.itemName, self.price, checked)
+
 
 class ShoppingListApp(QMainWindow):
     budget_changed = pyqtSignal(int)    

@@ -9,7 +9,8 @@
 """
 
 import sys
-from PyQt6.QtWidgets import QApplication, QMainWindow, QLabel, QSlider, QProgressBar, QSpinBox, QPushButton, QVBoxLayout, QWidget
+from PyQt6.QtWidgets import QApplication, QMainWindow, QLabel, QSlider, QProgressBar, QSpinBox
+from PyQt6.QtWidgets import QVBoxLayout, QWidget, QPushButton
 from PyQt6.QtCore import Qt
 # from PyQt6.QtWidgets import QGridLayout
 
@@ -44,7 +45,6 @@ class BookFeedbackPageLayouts(QMainWindow):
 
         self.submit_button = QPushButton("Submit Feedback", self)
 
-
         # === New code goes here ===
 
         central_widget = QWidget(self)  # Central widget to hold the layout
@@ -74,6 +74,7 @@ class BookFeedbackPageLayouts(QMainWindow):
         # layout.addWidget(self.submit_button, 3, 0, 1, 2)
 
         self.setWindowTitle("PyQt6 Cookbook Feedback Questionnaire with Layouts")
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

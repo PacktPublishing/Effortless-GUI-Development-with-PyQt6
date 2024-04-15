@@ -11,6 +11,7 @@
 import sys
 from PyQt6.QtWidgets import QApplication, QMainWindow, QLabel, QCheckBox, QRadioButton, QComboBox
 
+
 class ShoppingListApp(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -58,6 +59,7 @@ class ShoppingListApp(QMainWindow):
         # Set the window title and size
         self.setWindowTitle("Shopping List App")
         self.setGeometry(300, 300, 280, 180)  # x, y, width, height
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

@@ -13,6 +13,7 @@ from PyQt6.QtWidgets import QApplication, QMainWindow, QStatusBar, QToolBar
 from PyQt6.QtGui import QAction, QIcon
 from PyQt6.QtCore import Qt
 
+
 class FileMenuApp(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -72,6 +73,7 @@ class FileMenuApp(QMainWindow):
 
         # Show "Ready!" message in status bar for 3 sec
         self.statusBar().showMessage("Ready!", 3000)
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

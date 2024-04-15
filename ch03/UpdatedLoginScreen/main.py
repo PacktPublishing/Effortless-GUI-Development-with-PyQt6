@@ -12,6 +12,7 @@ import sys
 from PyQt6.QtWidgets import QApplication, QMainWindow, QLabel, QPushButton, QLineEdit, QWidget
 from PyQt6.QtWidgets import QGridLayout
 
+
 class UpdatedLoginScreen(QMainWindow):
     def __init__(self):
         super().__init__()

@@ -12,6 +12,7 @@ import sys
 from PyQt6.QtWidgets import QApplication, QMainWindow, QLabel, QSlider, QProgressBar, QSpinBox, QPushButton
 from PyQt6.QtCore import Qt, QPoint
 
+
 class BookFeedbackPage(QMainWindow):
 
     y_step = 30
@@ -72,6 +73,7 @@ class BookFeedbackPage(QMainWindow):
         # Set the window title and size
         self.setWindowTitle("PyQt6 Cookbook Feedback Questionnaire")
         self.setGeometry(300, 300, 220, 270)
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

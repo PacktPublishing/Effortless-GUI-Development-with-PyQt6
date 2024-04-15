@@ -31,6 +31,7 @@ class CustomCheckBox(QCheckBox):
         else:
             self.setStyleSheet("")
 
+
 class ShoppingListApp(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -68,6 +69,7 @@ class ShoppingListApp(QMainWindow):
 
     def handle_item_checked(self, item):
         print(f'"{item}" bought!')
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

@@ -11,6 +11,7 @@
 import sys
 from PyQt6.QtWidgets import QApplication, QMainWindow, QLabel, QPushButton, QLineEdit
 
+
 class LoginScreen(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -37,6 +38,7 @@ class LoginScreen(QMainWindow):
         # Window settings
         self.setWindowTitle('Login Screen')
         self.setGeometry(300, 300, 320, 150)  # x, y, width, height
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
