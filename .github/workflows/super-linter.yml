@@ -18,6 +18,8 @@ on:
 jobs:
   run-lint:  
     runs-on: ubuntu-latest
+    env:
+      FULL_PROJECT_CHECK: ${{ github.event.inputs.fullProjectCheck == 'true' }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -28,12 +30,12 @@ jobs:
 
       - name: Useful information
         run: |
-          echo "Linting full codebase? ${{ inputs.fullProjectCheck == 'true' }}"
+          echo "Linting full codebase? ${{ env.FULL_PROJECT_CHECK }}"
 
       - name: Lint Code Base
         uses: github/super-linter@v4
         env:
-          VALIDATE_ALL_CODEBASE: ${{ inputs.fullProjectCheck == 'true' }}
+          VALIDATE_ALL_CODEBASE: ${{ env.FULL_PROJECT_CHECK }}
           VALIDATE_BASH: true
           VALIDATE_GITHUB_ACTIONS: true
           VALIDATE_GITLEAKS: true
