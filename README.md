@@ -31,3 +31,12 @@ This repository contains the code of example projects from the **"Effortless GUI
 - [Updated Shopping List](ch03/UpdatedShoppingList)
 - [Shopping List + Budget](ch03/ShoppingListBudget)
 - [Numeric Input](ch03/NumericInput)
+
+
+### Chapter 04
+
+- [HelloQML](ch04/helloQML)
+- [Login Screen in QML](ch04/LoginScreenQML)
+- [Shopping List in QML](ch04/ShoppingListQML)
+- [Dashboard](ch04/dashboard)
+- [Advanced Dashboard](ch04/dashboardConnected)
